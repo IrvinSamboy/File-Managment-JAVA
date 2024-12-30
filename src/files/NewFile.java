@@ -16,6 +16,7 @@ public class NewFile {
             }
             else {
                 PrintWriter out = new PrintWriter(new FileWriter(file));
+                out.close();
             }
         }
         catch (IOException e){

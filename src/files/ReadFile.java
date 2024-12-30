@@ -16,6 +16,7 @@ public class ReadFile {
             while (line != null) {
                 System.out.println(line);
                 line = reader.readLine();
+                reader.close();
             }
         }
         catch(IOException e){
