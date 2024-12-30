@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class newFile {
+public class NewFile {
     public static void main(String[] args) {
         String fileName = "newFile.txt";
         File file = new File(fileName);
