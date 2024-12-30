@@ -15,7 +15,7 @@ public class newFile {
                 System.out.println("File already exists");
             }
             else {
-                PrintWriter arro = new PrintWriter(new FileWriter(file));
+                PrintWriter out = new PrintWriter(new FileWriter(file));
             }
         }
         catch (IOException e){
